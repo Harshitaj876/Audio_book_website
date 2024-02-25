@@ -1,0 +1,48 @@
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search input{
+    outline: 0;
+    border: 0;
+    border-color: black;
+    width: 350px;
+    height: 35px;
+    padding: 0 0.5rem;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.search button{
+    outline: none;
+    border: none;
+    height: 35px;
+    padding: 0 0.5rem;
+}
+ 
+.Card{
+    background-color:lemonchiffon;
+    border-radius: 15px;
+    max-width: fit-content;
+    padding: 10px;
+    align-content: center;
+    text-align: center;
+}
+
+.Title{
+    color: var(--first-color);
+}
+
+.Price{
+    color: black;
+}
+
+.Cards-container{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-around;
+}

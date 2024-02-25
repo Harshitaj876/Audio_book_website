@@ -1,0 +1,174 @@
+.whole{
+    padding-left: 10px;
+    padding-right: 4px;
+}
+
+.Login-container{
+    position: center;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 200px;
+    flex-direction: row;
+    gap: 150px;
+}
+
+.Login-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Primary-Heading{
+    color: var(--Primary-Color, #036);
+    font-family: Crimson Text;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* UsernameBox.css */
+.username-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+  }
+  
+  .border-box {
+    width: 300px;
+    height: 40px;
+    position: relative;
+    border-radius: 10px;
+    border: 2px solid #170808;
+    background-color: #fff; /* Background color to hide the part of the border */
+  }
+  
+  .username-text {
+    position: absolute;
+    top: -15px;
+    left: 20px; /* Adjust the position as needed */
+    background-color: #fff;
+    color: #000;
+    padding: 0 20px;
+    font-family: Crimson Text;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .spacing{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .space-between{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+    justify-content: space-between;
+  }
+
+.Remember{
+    display: flex;
+    gap: 5px;
+    align-items:center;
+    justify-content: center;
+    flex-direction: row;
+    color: #170808;
+    font-family: Crimson Text;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Remember2{
+    display: flex;
+    gap: 5px;
+    padding-bottom: 10px;
+    align-items:center;
+    justify-content: center;
+    flex-direction: row;
+    color: #170808;
+    font-family: Crimson Text;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.forgot-text{
+    color: var(--Primary-Color, #036);
+    font-family: Crimson Text;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+  
+.primary-button {
+    border: none;
+    color: var(--Primary-Color, #036); /* Text color */
+    padding: 12px 20px; /* Adjust padding as needed */
+    border-radius: 9px;
+    background: var(--Accent-Color, #FFD700);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+    outline: none;
+    }
+
+
+
+.notamember{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    justify-content: center;
+    gap: 5px;
+}
+
+.blackText{
+    color: #000;
+    font-family: Crimson Text;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text-with-lines {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    justify-content: space-around;
+  }
+  
+  .horizontal-line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #767676;
+    margin: 0 10px; /* Adjust the margin as needed */
+  }
+
+.orLogin{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+
+.input{
+    margin-left: 40px;
+    margin-top: 10px;
+}
