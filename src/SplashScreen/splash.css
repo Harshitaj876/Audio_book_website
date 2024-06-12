@@ -1,0 +1,61 @@
+.splash-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #111111;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .logo {
+    z-index: 10;
+  }
+  
+  .text-left, .text-right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: "Cinzel", serif;
+    font-weight: 600;
+    font-size: 4rem;
+    color: #63C3A3;
+    opacity: 0;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+  }
+  
+  .text-left {
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    animation-name: moveLeft;
+  }
+  
+  .text-right {
+    right: 50%;
+    transform: translateX(50%) translateY(-50%);
+    animation-name: moveRight;
+  }
+  
+  @keyframes moveLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(0) translateY(-50%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(-250px) translateY(-50%); /* Adjust the value as needed */
+    }
+  }
+  
+  @keyframes moveRight {
+    0% {
+      opacity: 0;
+      transform: translateX(0) translateY(-50%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(330px) translateY(-50%); /* Adjust the value as needed */
+    }
+  }
+  
